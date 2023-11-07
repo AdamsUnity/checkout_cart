@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  padding-top: 5rem;
+  padding-left: 2rem;
+  font-size: 40px;
+  color: rgba(255, 0, 98, 0.829);
+}
+.product--information {
+  font-size: 25px;
+  color: rgba(255, 0, 98, 0.829);
+}
+.product--image {
+  width: 200px;
+}
+#cart--container {
+  margin: 2rem;
+}
+#single--product {
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid grey;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+.product--image {
+  width: 150px;
+  border-radius: 5px;
+}
+#cart--total {
+  font-size: 30px;
+  font-weight: 400;
+}
+.increase--btn,
+.decrease--btn {
+  padding: 0.25rem;
+  margin: 10px;
+  margin-left: 0;
+  border-radius: 5px;
+}
+
+/* .product--liked {
+  color: white;
+  background-color: rgba(255, 0, 98, 0.829);
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 16px;
+} */
+
+.remove--item {
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 16px;
+}
+.like--btn {
+  border: 0;
+  background: transparent;
+  font-size: 2rem;
+}
